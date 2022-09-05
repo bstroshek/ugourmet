@@ -1,6 +1,6 @@
 <?php
 
-/* https://api.telegram.org/bot5574020045:AAGa9-OxVDsrkHTSmWveiqaVczOkyAJHwSA/getUpdates,
+/* https://api.telegram.org/bot5508636857:AAFoja40Bz745MYnpafGwpn5QZOujieQ7uM/getUpdates,
 где, XXXXXXXXXXXXXXXXXXXXXXX - токен вашего бота, полученный ранее */
 
 // поля из формы
