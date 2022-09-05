@@ -1,0 +1,454 @@
+/*
+* Internal Page Start
+*/
+
+
+.mob-divider {
+    display: none;
+    width: 100%;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.mob-divider:before {
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: #000000;
+}
+
+.mob-divider:after {
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: #000000;
+}
+
+.custom-divider {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.custom-divider:before {
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: #000000;
+}
+
+.custom-divider:after {
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: #000000;
+}
+
+.ip-hero {
+    height: 498px;
+    padding-top: 242px;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.ip-hero .container {
+    height: 100%;
+}
+
+.ip-hero .ip-page-title {
+    width: 35%;
+    margin: 0 auto;
+    position: relative;
+    height: 100%;
+}
+
+.ip-hero .ip-page-title img {
+    position: absolute;
+    left: calc(50% - 65px);
+    bottom: -42px;
+}
+
+.ip-hero__pre-title {
+    color: #ffffff;
+    font-family: "Roboto Mono";
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 2.29px;
+    line-height: 29px;
+    text-transform: uppercase;
+}
+
+.ip-hero__title {
+    color: #ffffff;
+    font-family: "Yrsa", serif;
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 49px;
+}
+
+.ip {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.ip__top {
+    padding-top: 110px;
+    width: 100%;
+}
+
+.ip__top-text {
+    color: #000000;
+    font-family: "Yrsa", serif;
+    width: 88%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    margin: 0 auto;
+}
+
+.ip__top-text .letter {
+    color: #000000;
+    font-size: 126px;
+    font-weight: 700;
+    line-height: 109px;
+    text-transform: uppercase;
+    margin-right: 5px;
+}
+
+.ip__top-text p {
+    color: #000000;
+    font-family: "Yrsa", serif;
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 42px;
+    margin: 0;
+}
+
+.ip-wrapper {
+    width: 82%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.ip-wrapper p {
+    margin: 30px 0;
+}
+
+.ip-text-title {
+    color: #000000;
+    font-family: "Yrsa", serif;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 23px;
+}
+
+.right-img-blk {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.right-img-blk .text-blk {
+    width: 39%;
+}
+
+.right-img-blk .img-right {
+    width: 53%;
+    margin: 25px 0 10px;
+}
+
+.right-img-blk .img-right img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+.right-img-blk .img-right .img-text {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: baseline;
+    -ms-flex-align: baseline;
+    align-items: baseline;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    text-align: right;
+}
+
+.right-img-blk .img-right .img-text p {
+    color: #000000;
+    font-family: "Roboto Mono";
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.right-img-blk .img-right .img-text i {
+    margin: 0 10px;
+}
+
+.full-width-img-blk {
+    margin: 0 0 50px;
+}
+
+.full-width-img-blk img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+.full-width-img-blk .img-text {
+    color: #000000;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: baseline;
+    -ms-flex-align: baseline;
+    align-items: baseline;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    text-align: right;
+}
+
+.full-width-img-blk .img-text p {
+    color: #000000;
+    font-family: "Roboto Mono";
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.full-width-img-blk .img-text i {
+    margin: 0 10px;
+}
+
+.ip-oils {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 60%;
+    background-position: 0 0;
+    padding: 85px 0 50px;
+}
+
+.ip-oils__top {
+    width: 77%;
+    text-align: center;
+    margin: 0 auto 45px;
+}
+
+.ip-oils__title {
+    color: #212121;
+    font-family: "Yrsa", serif;
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 49px;
+    margin: 10px 0 0;
+}
+
+.ip-oils__post-title {
+    color: #000000;
+    font-family: "Work Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 29px;
+}
+
+.ip-products {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.ip-products__wrapper {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.ip-products__item {
+    padding: 0 20px;
+    width: 33%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.ip-products__item .product-image {
+    width: 100%;
+}
+
+.ip-products__item .product-image img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+
+@media (max-width: 1200px) {
+    .ip-hero .ip-page-title {
+        width: 50%;
+    }
+}
+
+@media (max-width: 980px) {
+    .ip-hero .ip-page-title {
+        width: 80%;
+    }
+    
+    .right-img-blk {
+        display: inline-block;
+    }
+    
+    .right-img-blk .text-blk {
+        width: 100%;
+    }
+    
+    .right-img-blk .img-right {
+        width: 100%;
+    }
+    
+    .ip-wrapper {
+        width: 100%;
+    }
+    
+    .ip-products__wrapper {
+        width: 100%;
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .ip-oils {
+        padding: 50px 0;
+    }
+    
+    .ip-products .product-price span {
+        display: inline-block;
+    }
+    
+    .ip-products .product-title {
+        font-size: 16px;
+    }
+    
+    .ip-oils__top {
+        width: 100%;
+    }
+}
+
+@media (max-width: 580px) {
+    .ip-hero .ip-page-title {
+        width: 100%;
+    }
+    
+    .mob-divider {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+    
+    .ip-oils__title {
+        font-size: 26px;
+    }
+    
+    .mob-divider {
+        margin-bottom: 30px;
+    }
+    
+    .ip-products .product-category {
+        text-align: center;
+    }
+    
+    .ip-products .product-category {
+        font-size: 12px;
+    }
+    
+    .ip-products .product-price {
+        font-size: 16px;
+        font-weight: 300;
+    }
+}
+
+@media (max-width: 480px) {
+    .ip-hero__title {
+        margin-top: 0;
+        font-size: 34px;
+    }
+    
+    .ip__top-text p {
+        font-size: 24px;
+        line-height: 35px;
+    }
+    
+    .ip__top-text .letter {
+        font-size: 95px;
+        line-height: 90px;
+    }
+    
+    .ip__top {
+        padding-top: 90px;
+    }
+    
+    .ip .custom-divider {
+        padding: 30px 0 0;
+    }
+    
+    .ip-wrapper p {
+        margin: 20px 0;
+    }
+    
+    .ip-text-title {
+        margin-top: 10px;
+    }
+    
+    .ip .right-img-blk, .ip .full-width-img-blk {
+        margin-bottom: 0;
+    }
+    
+    .ip-oils {
+        padding: 50px 0 30px;
+    }
+}
+
+@media (max-width: 350px) {
+    .ip-hero {
+        height: 534px;
+    }
+}
+
+/*
+* Internal Page End
+*/

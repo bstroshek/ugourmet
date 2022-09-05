@@ -1,0 +1,761 @@
+/*
+* Lander page start
+*/
+
+
+
+.d-none {
+    display: none;
+}
+
+.custom-divider {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.custom-divider:before {
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: #000000;
+}
+
+.custom-divider:after {
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: #000000;
+}
+
+.mob-divider {
+    display: none;
+    width: 100%;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.mob-divider:before {
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: #000000;
+}
+
+.mob-divider:after {
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: #000000;
+}
+
+.lander-hero {
+    padding-top: 265px;
+    padding-bottom: 94px;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 442px;
+}
+
+.lander-hero__pre-title {
+    color: #ffffff;
+    font-family: "Roboto Mono";
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 2.29px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.lander-hero .page-title {
+    color: #ffffff;
+    font-family: "Yrsa", serif;
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 49px;
+    margin: 0;
+}
+
+.lander-top {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 65px 0;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.lander-top__box {
+    height: 497px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    margin: 0 auto;
+    width: 95%;
+    background: center/cover no-repeat;
+}
+
+.lander-top__box-image {
+    width: 50%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.lander-top__box .text-blk {
+    width: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.lander-top__box .land-divider {
+    width: 389px;
+    margin: 17px 0;
+}
+
+.lander-top__category {
+    color: #212121;
+    font-family: "Roboto Mono";
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 2.29px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.lander-top__title {
+    color: #212121;
+    font-family: "Yrsa", serif;
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 49px;
+    margin: 0;
+}
+
+.lander-top__txt {
+    width: 67%;
+    margin: 0;
+}
+
+.lander {
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.lander-box {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding-top: 45px;
+}
+
+.lander-aside {
+    width: 29%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.top-articles {
+    width: 100%;
+    background-color: #f2f1f0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 30px;
+}
+
+.top-articles__title {
+    padding-bottom: 30px;
+    margin-bottom: 38px;
+    margin-top: 0;
+    padding-top: 0;
+    border-bottom: 1px solid #000000;
+    color: #000000;
+    font-family: "Yrsa", serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 23px;
+    text-align: center;
+}
+
+.top-articles__top {
+    text-align: center;
+    margin-bottom: 38px;
+}
+
+.top-articles__top img {
+    margin: 0 auto 10px;
+}
+
+.top-articles__top .img-title {
+    margin: 0;
+    color: #000000;
+    font-family: "Yrsa", serif;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 25px;
+}
+
+.top-articles__main {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.top-articles__item {
+    position: relative;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-left: 40px;
+    margin-bottom: 24px;
+}
+
+.top-articles__item:before {
+    content: "";
+    width: 26px;
+    height: 1px;
+    background-color: #000000;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 14px;
+}
+
+.top-articles__item a {
+    color: #000000;
+    font-family: "Work Sans";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 23px;
+}
+
+.lander-main {
+    width: 75%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.lander-recipe {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-bottom: 26px;
+}
+
+.lander-recipe__img {
+    width: 35%;
+}
+
+.lander-recipe__img img {
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.lander-recipe__description {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 65%;
+    padding: 10px 20px 20px;
+}
+
+.lander-recipe__description .category {
+    color: #212121;
+    font-family: "Roboto Mono";
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1.71px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.lander-recipe__description .title {
+    color: #000000;
+    font-family: "Yrsa", serif;
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 30px;
+    margin: 0;
+}
+
+.lander-recipe__description .date {
+    color: #000000;
+    font-family: "Work Sans";
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 29px;
+    margin: 0;
+}
+
+.lander .ip-oils {
+    padding: 0;
+}
+
+.lander .ip-oils__top {
+    margin: 0 0 25px;
+    text-align: left;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    width: 96%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.lander .from-shop {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 95%;
+    margin: 68px 0;
+}
+
+.lander .from-shop__divider {
+    width: 70%;
+    margin: 0;
+}
+
+.lander .from-shop__divider img {
+    width: 100%;
+    max-width: 100%;
+}
+
+.lander .from-shop .ip-products__wrapper {
+    background-color: #f2f1f0;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 22px 0;
+    margin: 0;
+}
+
+.lander .from-shop__title {
+    color: #000000;
+    font-family: "Yrsa", serif;
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 30px;
+    margin: 0;
+}
+
+.lander .from-shop .product-category {
+    font-size: 11px;
+    letter-spacing: 1.54px;
+}
+
+.lander .from-shop .product-title {
+    font-size: 14px;
+    line-height: 20.7px;
+}
+
+.lander .from-shop .product-price {
+    font-size: 14px;
+    line-height: 20.7px;
+}
+
+.lander .pagination {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.lander .pagination .pagination-holder {
+    margin: 0 10px 0;
+}
+
+.lander .pagination .pagination-holder a, .lander .pagination .pagination-holder span {
+    padding: 0 10px;
+}
+
+.lander .pagination .btn {
+    margin: 0;
+}
+
+@media (min-width: 1500px) {
+    .lander-hero {
+        padding-top: 290px;
+    }
+}
+
+@media (min-width: 1399px) {
+    
+    .lander-aside {
+        width: 23.5%;
+    }
+    
+    .lander-recipe__description .title {
+        width: 78%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .top-articles__top img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 992px) {
+    .lander-top__box {
+        height: 420px;
+    }
+    
+    .lander-main {
+        padding-right: 30px;
+    }
+    
+    .lander-recipe {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    
+    .lander-recipe__img {
+        width: 100%;
+        height: 320px;
+    }
+    
+    .lander-recipe__description {
+        width: 100%;
+    }
+    
+    .top-articles {
+        padding: 20px;
+    }
+    
+    .lander-main .ip-products__item {
+        padding: 0 7px;
+    }
+    
+    .lander .from-shop__divider {
+        width: 61%;
+    }
+}
+
+@media (max-width: 768px) {
+    .lander-hero {
+        height: 336px;
+        padding-top: 195px;
+    }
+    
+    .lander-top__box {
+        height: auto;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        padding: 0;
+        background-image: none!important;
+    }
+    
+    .lander-top__box-image {
+        width: 100%;
+        height: 360px;
+    }
+    
+    .lander-top__box .text-blk {
+        width: 100%;
+        padding: 30px 0;
+    }
+    
+    .lander-aside {
+        display: none;
+    }
+    
+    .lander-box {
+        padding: 20px 20px 0;
+    }
+    
+    .lander-main {
+        width: 100%;
+        padding: 0;
+    }
+    
+    .lander-recipe__description {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    
+    .lander .from-shop {
+        background-color: #f2f1f0;
+        width: 100%;
+        margin-top: 0;
+        padding-top: 36px;
+    }
+    
+    .lander .ip-oils__top {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        margin-right: 0;
+        width: 100%;
+    }
+    
+    .lander .from-shop__title {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .lander .from-shop__divider {
+        width: 100%;
+        margin-top: 10px;
+    }
+    
+    .lander .from-shop .product-category {
+        font-size: 9px;
+    }
+    
+    .lander-wrapper .custom-oil-row .products {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+    
+    .lander-wrapper .custom-oil-row .products .product-container-25 {
+        width: 47%;
+    }
+    
+    .lander-wrapper .custom-oil-row .products .product-container-25 .line-50 {
+        display: none;
+    }
+    
+    .lander-wrapper .custom-oil-row .products .product-container-25 .product-price {
+        margin: 0;
+    }
+}
+
+@media (max-width: 576px) {
+    .lander-hero {
+        padding-top: 160px;
+        height: 290px;
+    }
+    
+    .lander-top__box-image {
+        height: 204px;
+    }
+    
+    .lander-top__box .text-blk {
+        padding: 12px 0;
+    }
+    
+    .lander-top__txt {
+        width: 96%;
+    }
+    
+    .lander-top__box .land-divider {
+        margin: 10px 0 15px;
+    }
+    
+    .lander-wrapper .custom-oil-row .products .product-container-25 {
+        width: 50%;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+}
+
+@media (max-width: 480px) {
+    .lander {
+        overflow-x: hidden;
+    }
+    
+    .lander-hero__pre-title {
+        font-size: 10px;
+        letter-spacing: 1.43px;
+        line-height: 18px;
+    }
+    
+    .lander-hero .page-title {
+        font-size: 27px;
+    }
+    
+    .lander-top__box__icon {
+        width: 45px;
+        height: 44px;
+    }
+    
+    .lander-top__box .text-blk {
+        padding-bottom: 40px;
+    }
+    
+    .lander-top {
+        padding: 30px 10px;
+    }
+    
+    .lander-top__txt {
+        font-size: 12px;
+        line-height: 22px;
+    }
+    
+    .lander-top__box .land-divider {
+        width: 234px;
+    }
+    
+    .lander-top__category {
+        font-size: 10px;
+        letter-spacing: 1.43px;
+        margin: 0;
+    }
+    
+    .lander-top__title {
+        font-size: 27px;
+        line-height: 30px;
+    }
+    
+    .lander-recipe {
+        margin-bottom: 10px;
+    }
+    
+    .lander-recipe__description .text {
+        display: none;
+    }
+    
+    .lander-recipe__description .date {
+        display: none;
+    }
+    
+    .lander-recipe__description .title {
+        font-size: 22px;
+        line-height: 27px;
+    }
+    
+    .lander-recipe__img {
+        height: 160px;
+    }
+    
+    .lander .from-shop .product-category {
+        font-size: 10px;
+        letter-spacing: 1.39px;
+    }
+    
+    .lander .ip-products__wrapper {
+        padding-top: 0;
+    }
+    
+    .lander .ip-products__item .product-image {
+        width: 260px;
+        height: 259px;
+        display: inline-block;
+    }
+    
+    .lander .ip-products__item .product-image img {
+        -o-object-fit: contain;
+        object-fit: contain;
+        width: 100%;
+        height: 100%;
+        display: inline-block;
+    }
+    
+    .lander-main .ip-products__item {
+        text-align: center;
+        padding: 0;
+    }
+    
+    .lander .from-shop {
+        width: 100%;
+        position: relative;
+        margin: 0 0 26px !important;
+    }
+    
+    .lander .from-shop:before, .lander .from-shop:after {
+        content: "";
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        display: block;
+        background-color: #f2f1f0;
+        top: 0;
+        bottom: 0;
+    }
+    
+    .lander .from-shop:before {
+        left: -100%;
+    }
+    
+    .lander .from-shop:after {
+        right: -100%;
+    }
+    
+    .lander .from-shop .ip-products__wrapper {
+        padding: 0 0 20px;
+    }
+    
+    .lander .pagination {
+        margin-left: -30px;
+        width: 120%;
+        margin-bottom: 15px;
+    }
+    .lander .pagination .pagination-holder .pug-page {
+        padding: 0 15px;
+    }
+    .lander-oils .mob-divider {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 380px) {
+    .lander-hero {
+        height: 254px;
+        padding-top: 153px;
+        padding-bottom: 22px;
+    }
+}
+
+
+
+/*
+* Lander page end
+*/

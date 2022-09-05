@@ -1,0 +1,240 @@
+
+/*
+* Oil row start
+*/
+
+.custom-oil-row {
+    padding-top: 54px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.custom-oil-row .mob-divider {
+    display: none;
+    width: 100%;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.custom-oil-row .mob-divider:before {
+    content: '';
+    width: 100%;
+    height: 1px;
+    background-color: #000000;
+}
+
+.mob-divider:after {
+    content: '';
+    width: 100%;
+    height: 1px;
+    background-color: #000000;
+}
+
+.custom-oil-row .title-section-right hr {
+    width: 100%;
+}
+
+.custom-oil-row__title {
+    width: 100%;
+    margin: 0 auto 50px;
+}
+
+.custom-oil-row .products {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-bottom: 0;
+}
+
+.custom-oil-row .products .product-container-25 {
+    border-right: none;
+    margin: 0;
+    padding: 0 1%;
+}
+
+.custom-oil-row .products .product-container-25:last-child {
+    border-right: 1px solid black;
+    position: relative;
+}
+
+.custom-oil-row .products .product-container-25:last-child:after {
+    content: "";
+    width: 10px;
+    height: 1px;
+    background: #000000;
+    right: -10px;
+    top: -1px;
+    position: absolute;
+}
+
+.custom-oil-row .products .product-container-25:last-child:before {
+    content: "";
+    width: 10px;
+    height: 1px;
+    background: #000000;
+    right: -10px;
+    bottom: 9px;
+    position: absolute;
+}
+
+.custom-oil-row .products .product-container-25:first-child {
+    position: relative;
+}
+
+.custom-oil-row .products .product-container-25:first-child:after {
+    content: "";
+    width: 10px;
+    height: 1px;
+    background: #000000;
+    left: -10px;
+    top: -1px;
+    position: absolute;
+}
+
+.custom-oil-row .products .product-container-25:first-child:before {
+    content: "";
+    width: 10px;
+    height: 1px;
+    background: #000000;
+    left: -10px;
+    bottom: 9px;
+    position: absolute;
+}
+
+.custom-oil-row .products .product-image img {
+    width: 100%;
+    height: auto;
+}
+
+.custom-oil-row .end {
+    margin: 50px 0 0 0;
+}
+
+.custom-oil-row .product-price img {
+    margin-left: 4px;
+}
+
+@media (max-width: 1200px) {
+    .custom-oil-row .products {
+        height: 464px;
+    }
+    
+    .custom-oil-row .products .product-container-25:first-child:before {
+        bottom: 8px;
+    }
+    
+    .custom-oil-row .products .product-container-25:last-child:before {
+        bottom: 8px;
+    }
+}
+
+@media (max-width: 860px) {
+    .custom-oil-row .products {
+        height: 429px;
+    }
+}
+
+@media (max-width: 768px) {
+    .custom-oil-row {
+        padding-top: 22px;
+    }
+    .custom-oil-row .products {
+        height: auto;
+        border: none;
+    }
+    
+    .custom-oil-row .product-price img {
+        display: inline-block;
+    }
+    
+    .custom-oil-row .products .product-container-25 {
+        border: none !important;
+        height: auto;
+    }
+    
+    .custom-oil-row .products .product-container-25:before, .custom-oil-row .products .product-container-25:after {
+        display: none !important;
+    }
+    
+    .custom-oil-row .product-category {
+        text-align: center;
+    }
+    
+    .custom-oil-row .title-section-right {
+        display: none;
+    }
+    
+    .custom-oil-row .title-section-left {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .custom-oil-row .end {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .custom-oil-row .mob-divider {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        margin-bottom: 25px;
+    }
+    .custom-oil-row__title {
+        margin-bottom: 0;
+    }
+}
+
+@media (min-width: 1328px) {
+    .custom-oil-row .products .product-container-25:last-child:before {
+        bottom: -1px;
+    }
+    .custom-oil-row .products .product-container-25:first-child:before {
+        bottom: -2px;
+    }
+}
+
+@media (min-width: 1204px) and (max-width: 1340px) {
+    .product-container-25 {
+        height: auto!important;
+    }
+    .custom-oil-row .products .product-container-25:last-child:before {
+        bottom: -1px;
+    }
+    .custom-oil-row .products .product-container-25:first-child:before {
+        bottom: -1px;
+    }
+}
+
+/*
+* Updates 0610
+*/
+
+
+@media (max-width: 768px) {
+    
+    .custom-oil-row .line-50 {
+        display: none;
+    }
+    .custom-oil-row .products {
+        flex-wrap: wrap;
+    }
+    .custom-oil-row .product-container-25 {
+        width: 48%;
+    }
+}
+@media (max-width: 576px) {
+    
+    .custom-oil-row .product-container-25 {
+        width: 50%;
+        box-sizing: border-box;
+        padding: 0 5px;
+    }
+    .custom-oil-row .product-container-25 .inner-container {
+        margin: 15px 0 0;
+    }
+    
+}

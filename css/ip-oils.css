@@ -1,0 +1,68 @@
+.ip-oils {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 60%;
+    background-position: 0 0;
+    padding: 85px 0; }
+.ip-oils__top {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 45px; }
+.ip-oils__title {
+    color: #212121;
+    font-family: "Yrsa", serif;
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 49px;
+    margin: 10px 0 0; }
+.ip-oils__post-title {
+    color: #000000;
+    font-family: "Work Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 29px; }
+
+.ip-products {
+    display: flex;
+    justify-content: center; }
+.ip-products__wrapper {
+    width: 85%;
+    margin: 0 auto; }
+.ip-products__item {
+    padding: 0 20px;
+    width: 33%;
+    box-sizing: border-box; }
+.ip-products__item .product-image {
+    width: 100%; }
+.ip-products__item .product-image img {
+    width: 100%;
+    max-width: 100%;
+    height: auto; }
+
+
+
+
+@media (max-width: 980px) {
+    
+    .ip-products__wrapper {
+        width: 100%; }
+ 
+}
+@media (max-width: 768px) {
+    .ip-oils {
+        padding: 50px 0; }
+    .product-category {
+        font-size: 8px;
+    }
+    
+}
+@media (max-width: 580px) {
+
+    
+    .ip-oils__title {
+        font-size: 26px; }
+    
+    
+    .ip-products .product-category {
+        text-align: center; }
+}

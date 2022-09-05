@@ -1,0 +1,1892 @@
+/* Colors */
+/* margins */
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mt-15 {
+  margin-top: 15px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+
+.mt-40 {
+  margin-top: 40px;
+}
+
+.mt-50 {
+  margin-top: 50px;
+}
+
+/* Fonts */
+:focus {
+  outline: 0;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  transition: all 300ms;
+  text-decoration: none;
+  color: #212121;
+}
+
+p {
+  font-family: "Work Sans";
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 29px;
+}
+
+.btn {
+  border-radius: 2px;
+  font-family: "Roboto Mono";
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  line-height: 19px;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 12px 20px;
+  text-decoration: none;
+  color: #212121;
+}
+
+.btn-primary {
+  background: #F0DB74;
+}
+
+.btn-primary:hover {
+  background: #DBB040;
+}
+
+.btn-dark {
+  background: #212121;
+}
+
+.btn-dark:hover {
+  background: #DBB040;
+}
+
+.container {
+  max-width: 1363px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Position */
+.fixed {
+  position: fixed;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.mw-150 {
+  max-width: 150px;
+}
+
+.mw-200 {
+  max-width: 200px;
+}
+
+.mw-250 {
+  max-width: 250px;
+}
+
+.mw-250 {
+  max-width: 250px;
+}
+
+.mw-300 {
+  max-width: 300px;
+}
+
+.mw-350 {
+  max-width: 350px;
+}
+
+.mw-400 {
+  max-width: 400px;
+}
+
+.mw-450 {
+  max-width: 450px;
+}
+
+.mw-500 {
+  max-width: 500px;
+}
+
+.mw-550 {
+  max-width: 550px;
+}
+
+.mw-600 {
+  max-width: 600px;
+}
+
+.mw-650 {
+  max-width: 650px;
+}
+
+.mw-700 {
+  max-width: 700px;
+}
+
+.full-width {
+  width: 100%;
+}
+
+/* Display */
+.block {
+  display: block;
+}
+
+.flex {
+  display: flex;
+}
+
+.none {
+  display: none;
+}
+
+/* Flex Position */
+.jc-start {
+  justify-content: flex-start;
+}
+
+.jc-center {
+  justify-content: center;
+}
+
+.jc-start {
+  justify-content: flex-end;
+}
+
+.jc-between {
+  justify-content: space-between;
+}
+
+.jc-evenly {
+  justify-content: space-evenly;
+}
+
+.jc-around {
+  justify-content: space-around;
+}
+
+.ai-start {
+  align-items: flex-start;
+}
+
+.ai-center {
+  align-items: center;
+}
+
+.ai-end {
+  align-items: flex-end;
+}
+
+.fd-col {
+  flex-direction: column;
+}
+
+.fd-col-reverse {
+  flex-direction: column-reverse;
+}
+
+.fd-row {
+  flex-direction: row;
+}
+
+.fd-row-reverse {
+  flex-direction: row-reverse;
+}
+
+.f-one {
+  flex: 1;
+}
+
+.f-two {
+  flex: 2;
+}
+
+.f-wrap {
+  flex-wrap: wrap;
+}
+
+.f-wrap-reverse {
+  flex-wrap: wrap-reverse;
+}
+
+/* Text alignment */
+.ta-left {
+  text-align: left;
+}
+
+.ta-center {
+  text-align: center;
+}
+
+.ta-right {
+  text-align: right;
+}
+
+.bp-center {
+  background-position: center;
+}
+
+.no-repeat {
+  background-repeat: no-repeat;
+}
+
+.cover {
+  background-size: cover;
+}
+
+.contain {
+  background-size: contain;
+}
+
+@media screen and (max-width: 768px) {
+  .hide-mobile {
+    display: none;
+  }
+
+  .fd-col-mobile {
+    flex-direction: column;
+  }
+
+  .fd-row-mobile {
+    flex-direction: row;
+  }
+}
+@media screen and (min-width: 767px) {
+  .hide-desktop {
+    display: none;
+  }
+
+  .fd-col-desktop {
+    flex-direction: column;
+  }
+
+  .fd-row-desktop {
+    flex-direction: row;
+  }
+}
+/* Header */
+.site-wrapper {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+header {
+  z-index: 10;
+  top: 0px;
+  padding: 20px;
+  max-width: 1363px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+header a {
+  text-decoration: none;
+}
+
+.promobar {
+  background: #212121;
+  padding: 20px;
+  color: #FFF;
+}
+
+.promobar .links a {
+  color: #FFF;
+  margin-right: 8px;
+  border-right: 1px solid #FFF;
+  padding-right: 8px;
+  font-family: "Work Sans", sans-serif;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 16px;
+  font-weight: 300;
+}
+
+.promobar .links a:last-of-type {
+  border-right: none;
+}
+
+.promobar .message {
+  font-family: "Roboto Mono";
+  font-size: 12px;
+  letter-spacing: 1.71px;
+  line-height: 16px;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #FFF;
+}
+
+.promobar .message:hover {
+  color: #F0DB74;
+}
+
+.actions.flex.ai-center div {
+  margin: 0 0 0 10px;
+}
+
+.search {
+  cursor: pointer;
+}
+
+.header-content {
+  background: #FFF;
+  padding: 20px;
+}
+
+.header-content-wrapper {
+  border: 1px solid #212121;
+  overflow: hidden;
+}
+
+.header-col {
+  height: 87px;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  border-right: 1px solid #212121;
+  flex: 1;
+}
+
+.header-col.logo {
+  max-width: 270px;
+}
+
+.header-col.description {
+  max-width: 350px;
+  position: relative;
+  overflow: hidden;
+}
+
+.header-col.description {
+  font-family: Work Sans, arial, sans-serif;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.header-col.description p {
+  max-width: 330px;
+  font-size: 12px;
+  line-height: 19px;
+}
+
+.header-col.nav-items-wrapper {
+  padding: 0;
+  border-right: 0;
+}
+
+.nav-items {
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid #212121;
+  flex: 1;
+}
+
+.nav-items a {
+  border-bottom: 1px solid #212121;
+  color: #000000;
+  font-family: "Work Sans", sans-serif;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 16px;
+  height: 43px;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 10px;
+  text-transform: uppercase;
+}
+
+.nav-items a:hover {
+  font-weight: bold;
+}
+
+.nav-items a:last-child {
+  border-bottom: 0;
+}
+
+.nav-items:last-child {
+  border-right: 0px;
+}
+
+.line-dash {
+  border-top: 1.5px dashed #212121;
+  width: 100%;
+  position: absolute;
+  top: calc(100% - 25px);
+  z-index: 1;
+  margin-left: 10px;
+}
+
+.nav-items .cart {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 20px;
+}
+
+/* Hero */
+.home-hero {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.hero-card {
+  max-width: 760px;
+  padding-top: 250px;
+  position: relative;
+  display: block;
+  width: 100%;
+  margin: 0 0 0 auto;
+  padding-bottom: 140px;
+}
+
+.hero-card-wrapper {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 30px;
+}
+
+.hero-card-inner {
+  border: 1px solid #212121;
+  padding: 30px;
+}
+
+.hero-card .pre-head {
+  font-family: "Yrsa", serif;
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 50px;
+  margin: 0 auto;
+}
+
+.hero-card .title {
+  font-family: "Yrsa", serif;
+  font-size: 56px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 55px;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.hero-card .description {
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 26px;
+  text-align: center;
+  margin: 0 auto 30px;
+  max-width: 500px;
+}
+
+.subscribe-row {
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: -100px 0;
+}
+
+/* Service Section */
+.sub-content .title {
+  font-family: Yrsa;
+  font-size: 22px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 23px;
+  margin: 5px 20px 0;
+}
+
+.sub-content .pre-title {
+  font-family: "Work Sans";
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 29px;
+  margin: 0 20px;
+}
+
+input.subscibe {
+  background: transparent;
+  border-bottom: 1px solid #212121;
+  box-shadow: none;
+  border-style: none;
+  border-bottom: 1px solid #212121;
+  font-size: 16px;
+  font-family: "Roboto Mono";
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  line-height: 19px;
+  color: black;
+  text-transform: uppercase;
+  padding: 10px 0;
+  flex: 3;
+}
+
+input.subscibe::placeholder {
+  color: #212121;
+}
+
+.btn.btn-dark {
+  border-style: none;
+  box-shadow: none;
+  color: white;
+  font-family: "Roboto Mono";
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  line-height: 19px;
+  text-align: center;
+  font-weight: 300;
+  padding: 13px 35px;
+}
+
+.sub-form {
+  display: flex;
+  flex: 1;
+  margin: 0 40px;
+}
+
+.sub-form form {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.container.subscribe {
+  margin: -100px auto -50px;
+  z-index: 2;
+  position: relative;
+}
+
+.service-section {
+  padding-top: 150px;
+  padding-bottom: 30px;
+}
+
+.service-title {
+  font-family: Yrsa;
+  font-size: 22px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 23px;
+  margin: 20px auto 10px;
+}
+
+.service-section p {
+  font-family: Work Sans;
+  margin: 0 auto 20px;
+}
+
+.service {
+  width: 238px;
+}
+
+.mission {
+  background: #FFF;
+}
+
+.small-title {
+  font-family: "Roboto Mono";
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 1.71px;
+  line-height: 16px;
+  text-transform: uppercase;
+}
+
+.section-title {
+  font-family: Yrsa;
+  font-size: 46px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 49px;
+  margin: 10px 0px;
+}
+
+.mission-text {
+  font-family: "Work Sans";
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 29px;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.mission {
+  padding: 80px;
+}
+
+.mission .left::after {
+  content: "";
+  position: absolute;
+  height: 1px;
+  width: 60px;
+  background: #979797;
+  right: -5px;
+  top: 60px;
+}
+
+.mission .left {
+  position: relative;
+}
+
+.featured-content {
+  border-right: 1px solid black;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.featured-title {
+  font-family: Yrsa;
+  font-size: 32px;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 30px;
+  text-align: center;
+  margin: 0 20px;
+}
+
+.featured-description {
+  font-family: "Work Sans";
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 29px;
+  text-align: center;
+}
+
+.featured-home .btn {
+  margin: 0 auto;
+}
+
+.featured-content {
+  border-right: 1px solid black;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  flex: 1.5;
+}
+
+.featured-home .left-image {
+  flex: 1;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.feature-right {
+  width: 40%;
+  border-bottom: 1px solid black;
+}
+
+.featured-left {
+  position: relative;
+  width: 60%;
+}
+
+.featured-home .bottle {
+  position: absolute;
+  right: -85px;
+  top: 12%;
+}
+
+.featured-content-inner {
+  padding: 0 50px 0 100px;
+}
+
+.feature-right .inner {
+  padding: 40px;
+}
+
+.featured-item {
+  flex: 1;
+  padding: 40px 20px 0;
+  position: relative;
+  margin-bottom: -20px;
+}
+
+.feat-title {
+  font-family: "Roboto Mono";
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  line-height: 19px;
+  text-transform: uppercase;
+}
+
+.feat-details {
+  font-family: "Work Sans";
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 20px;
+  opacity: 0;
+  transition: all 300ms;
+}
+
+.feat-details {
+  font-family: "Work Sans";
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 20px;
+  opacity: 0;
+  transition: all 300ms;
+}
+
+.featured-item:hover .feat-details, .featured-item:hover .box {
+  opacity: 1;
+}
+
+.featured-item:hover .content-wrapper {
+  transform: translateY(-50px);
+}
+
+.featured-item .content-wrapper {
+  background: #FFF;
+  color: #212121;
+}
+
+.featured-item img {
+  width: 100%;
+  height: auto;
+}
+
+.featured-item .image-wrapper {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 276px;
+  width: 100%;
+}
+
+.featured-item span img {
+  width: 7px;
+  margin-left: 10px;
+}
+
+.featured-item .box {
+  border: 1px solid #000;
+  height: 165px;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  left: 0;
+  z-index: -1;
+  opacity: 0;
+}
+
+.featured-press {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 40px 20px;
+  position: relative;
+}
+
+.review-item {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 0 40px;
+}
+
+.featured-press .section-title {
+  margin: 40px auto;
+  height: auto;
+}
+
+.review-logo {
+  height: 55px;
+  width: auto;
+  margin: 0 auto 10px auto;
+}
+
+.prev-arrow {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+}
+
+.next-arrow {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+}
+
+.featured-press .review {
+  font-family: "Work Sans";
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 29px;
+}
+
+.producer {
+  border: 1px solid #212121;
+  margin: 20px;
+  color: #212121;
+  min-width: 390px;
+}
+
+.producer-img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 281px;
+}
+
+.olive-icon {
+  right: 20px;
+  top: 220px;
+}
+
+.producer .content {
+  padding: 10px 20px;
+  background: #FFF;
+}
+
+.producer .title {
+  font-family: Yrsa;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: 30px;
+  font-weight: 300;
+  margin: 10px 0;
+}
+
+.producer p {
+  font-family: "Work Sans";
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 22px;
+}
+
+.producer:hover .title {
+  color: #DBB040;
+}
+
+.producers-row {
+  padding: 20px 0;
+}
+
+.feature-product-row .title {
+  font-family: Yrsa;
+  font-size: 46px;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 49px;
+}
+
+.feature-product-row .pre-head {
+  font-family: "Roboto Mono";
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 1.71px;
+  line-height: 16px;
+}
+
+.text-link {
+  font-family: "Roboto Mono";
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  line-height: 19px;
+  color: #212121;
+  text-transform: uppercase;
+}
+
+.text-link:hover {
+  color: #DBB040;
+}
+
+.feature-product-row .title {
+  font-family: Yrsa;
+  font-size: 46px;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 49px;
+  margin: 0;
+  position: relative;
+}
+
+.feature-product-row .content-left {
+  padding: 20px;
+  flex: 1.5;
+}
+
+.feature-product-row .content-right {
+  max-width: 600px;
+  min-height: 200px;
+  flex: 1;
+  position: relative;
+}
+
+.feature-product-row .inner {
+  max-width: 600px;
+  padding: 200px 0;
+  margin: 0 15% 0 auto;
+}
+
+.feature-product-row .title::after {
+  content: "";
+  position: absolute;
+  height: 1px;
+  width: 400px;
+  background: #979797;
+  left: 105%;
+  top: 20px;
+}
+
+.content-right img {
+  max-width: 218px;
+  top: 10%;
+  left: -108px;
+}
+
+.feature-product-row {
+  padding: 20px 0;
+}
+
+.feature-product-row .content-right {
+  max-width: 600px;
+  min-height: 200px;
+  flex: 1;
+  position: relative;
+  padding: 0;
+  margin: 0;
+  background-size: 110%;
+}
+
+.med-title {
+  font-family: Yrsa;
+  font-size: 32px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 30px;
+  text-align: center;
+  margin: 0;
+}
+
+.founders-content {
+  padding: 40px;
+  margin: -10px auto;
+}
+
+.founders-content p {
+  max-width: 950px;
+  margin: 20px auto 30px;
+}
+
+.fw-image {
+  flex: 1;
+  width: 100%;
+}
+
+.fw-image img {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.founders-row {
+  margin: 10px auto 40px;
+}
+
+.collection-hero-card {
+  max-width: 760px;
+  padding-top: 300px;
+  position: relative;
+  display: block;
+  width: 100%;
+  margin: auto;
+  padding-bottom: 100px;
+  text-align: center;
+}
+
+.collection-hero-title {
+  font-family: "Roboto Mono";
+  font-weight: bold;
+  color: #FFFFFF;
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: 2.29px;
+}
+
+.collection-hero-subtitle {
+  font-family: "Yrsa", serif;
+  font-weight: bold;
+  color: #FFFFFF;
+  font-size: 46px;
+  line-height: 49px;
+}
+
+.shop-all {
+  height: 700px;
+  background-size: cover;
+}
+
+.shop-menu .links {
+  font-family: "Work Sans";
+  font-size: 16px;
+  line-height: 29px;
+  text-align: center;
+  margin: 75px 50px 50px;
+}
+
+.shop-menu .links a {
+  padding: 0 25px;
+  color: #000000;
+}
+
+.shop-divider {
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+.shop-divider img {
+  display: block;
+  margin: auto;
+  width: 80%;
+}
+
+.shop-all-container {
+  width: 80%;
+  margin: auto;
+}
+
+.breadcrumb-links {
+  font-family: "Roboto Mono";
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  line-height: 19px;
+}
+
+.breadcrumb-links a {
+  color: black;
+}
+
+.best-sellers {
+  width: 100%;
+  position: relative;
+}
+
+.best-sellers-hr {
+  width: 500px;
+  position: absolute;
+  top: 142px;
+  left: 290px;
+}
+
+.best-sellers-container {
+  width: 100%;
+}
+
+.best-sellers-left {
+  position: relative;
+  width: 60%;
+}
+
+.best-sellers-right {
+  position: relative;
+  width: 40%;
+}
+
+.best-sellers-img {
+  margin-top: 15px;
+}
+
+.best-sellers-img img {
+  width: 685px;
+}
+
+.best-sellers-text {
+  margin-top: 100px;
+}
+
+.best-sellers-text .title {
+  font-family: "Roboto Mono";
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 1.71px;
+  line-height: 16px;
+  margin-bottom: 20px;
+}
+
+.best-sellers-text .subtitle {
+  font-family: "Yrsa", serif;
+  font-size: 32px;
+  font-weight: 100;
+  letter-spacing: 0;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+
+.best-sellers-text .description {
+  font-family: "Work Sans";
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 29px;
+  margin-bottom: 20px;
+}
+
+.best-sellers-text .link {
+  font-family: "Roboto Mono";
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  line-height: 19px;
+  color: black;
+}
+
+.section-container {
+  margin: 75px;
+  width: 100%;
+}
+
+.title-section-left {
+  color: black;
+  width: 35%;
+  font-size: 46px;
+  font-family: "Yrsa";
+  line-height: 49px;
+}
+
+.title-bold {
+  font-weight: bold;
+}
+
+.title-section-right {
+  width: 65%;
+}
+
+.title-section-right hr {
+  float: left;
+  width: 90%;
+  margin-top: 22px;
+}
+
+.row {
+  margin: 80px;
+}
+
+.container-25 {
+  width: 25%;
+}
+
+.container-75 {
+  width: 75%;
+}
+
+.container-60 {
+  width: 60%;
+}
+
+.container-50 {
+  width: 50%;
+}
+
+.product-category {
+  font-family: "Roboto Mono";
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 1.71px;
+  line-height: 16px;
+}
+
+.image-left {
+  height: 550px;
+  background-image: url("../images/bruschetta.jpg");
+  background-size: cover;
+  position: relative;
+  margin: 15px 0;
+}
+
+.image-right {
+  background-image: url("../images/hands-closeup-oliveoil.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 600px;
+  position: relative;
+  max-width: 800px;
+  margin: auto;
+}
+
+.image-right-text {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  text-align: center;
+  width: 275px;
+}
+
+.image-right-title {
+  font-family: "Yrsa", serif;
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 30px;
+}
+
+.image-right-description {
+  font-family: "Work Sans";
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.cart-btn {
+  position: absolute;
+  bottom: 25px;
+  right: 32%;
+  margin: auto;
+  border-radius: 2px;
+  font-family: "Roboto Mono";
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  line-height: 19px;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 12px 20px;
+  text-decoration: none;
+  color: #212121;
+  background: #F0DB74;
+  border: none;
+  cursor: pointer;
+  letter-spacing: 1.5px;
+  font-weight: 200;
+}
+
+.product-price {
+  font-family: "Work Sans";
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 23px;
+  text-align: center;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.product-title {
+  font-family: "Work Sans";
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 23px;
+  text-align: center;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.line-50 {
+  width: 50px;
+  height: 0;
+  margin: 10px;
+}
+
+.products {
+  width: 90%;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  height: 500px;
+}
+
+.product-container-25 {
+  width: 23%;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  height: 102%;
+  margin: 0 1%;
+}
+
+.product-container {
+  margin: 0 100px;
+}
+
+.inner-container {
+  margin: 15px;
+}
+
+.product-image img {
+  width: 275px;
+  display: block;
+  margin: 10px auto;
+  cursor: pointer;
+}
+
+.end {
+  float: right;
+  margin: 25px 200px 0 0;
+}
+
+.section {
+  width: 100%;
+  margin-top: 125px;
+  height: 1400px;
+}
+
+.vinegar-image-right {
+  height: 550px;
+  background-image: url("../images/vinegar-on-table.jpg");
+  background-size: cover;
+  position: relative;
+  margin: auto;
+}
+
+.vinegar-image-left {
+  background-image: url("../images/vinegar-with-bread.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 600px;
+  position: relative;
+  max-width: 800px;
+  margin: 15px 0;
+}
+
+.image-left-text {
+  position: absolute;
+  top: 150px;
+  left: 250px;
+  text-align: center;
+  width: 275px;
+}
+
+.image-left-title {
+  font-family: "Yrsa", serif;
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 30px;
+}
+
+.image-left-description {
+  font-family: "Work Sans";
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.infused-oils {
+  width: 100%;
+  position: relative;
+  margin: 100px;
+}
+
+.infused-oils-hr {
+  width: 500px;
+  position: absolute;
+  top: 105px;
+  left: 500px;
+}
+
+.infused-oils-container {
+  width: 100%;
+}
+
+.infused-oils-left {
+  position: relative;
+  width: 40%;
+}
+
+.infused-oils-right {
+  position: relative;
+  width: 60%;
+}
+
+.infused-oils-img {
+  margin-top: 15px;
+}
+
+.infused-oils-img img {
+  width: 685px;
+}
+
+.infused-oils-text {
+  margin: 100px 0 0 100px;
+  width: 500px;
+}
+
+.infused-oils-text .title {
+  font-family: "Roboto Mono";
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 1.71px;
+  line-height: 16px;
+  margin-bottom: 20px;
+}
+
+.infused-oils-text .subtitle {
+  font-family: "Yrsa", serif;
+  font-size: 32px;
+  font-weight: 100;
+  letter-spacing: 0;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+
+.infused-oils-text .description {
+  font-family: "Work Sans";
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 29px;
+  margin-bottom: 20px;
+}
+
+.infused-oils-text .link {
+  font-family: "Roboto Mono";
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  line-height: 19px;
+  color: black;
+}
+
+.divider {
+  display: block;
+  margin: 0 100px;
+  width: 80%;
+  padding: 50px 0;
+}
+
+.action-text {
+  font-family: "Roboto Mono";
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 2.29px;
+  line-height: 21px;
+}
+
+.category-text-large {
+  font-family: "Yrsa";
+  font-weight: bold;
+  font-size: 46px;
+  line-height: 49px;
+}
+
+.balsamic-glaze-image-right {
+  height: 550px;
+  background-image: url("../images/balsamic-pearls.jpg");
+  background-size: cover;
+  position: relative;
+  margin: 15px 0;
+}
+
+.shop-all-button {
+  float: right;
+  margin-top: 20px;
+  margin-right: 225px;
+}
+
+.img-small img {
+  width: 350px;
+}
+
+.img-large img {
+  width: 800px;
+}
+
+.product-container-33 {
+  width: 33%;
+  border-right: 0;
+  height: 102%;
+  margin-bottom: -20px;
+  padding-bottom: 20px;
+}
+
+.product-container-33:nth-child(2) {
+  border-left: 1px solid #212121;
+  border-right: 1px solid #212121;
+}
+
+.home-best-sellers {
+  padding: 60px 0;
+}
+
+.home-best-sellers .products {
+  width: 70%;
+  margin: 30px auto;
+  height: auto;
+}
+
+.home-best-sellers .product-image {
+  height: 431px;
+  background-size: 105%;
+  margin: 10px 0;
+}
+
+.home-best-sellers .product-category {
+  font-family: "Work Sans";
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 16px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.hover-card {
+  transition: all 500ms;
+}
+
+.hover-card .product-image {
+  webkit-transition: background-size 500ms;
+  -moz-transition: background-size 500;
+  -o-transition: background-size 500;
+  -ms-transition: background-size 500ms;
+  transition: background-size 500ms;
+}
+
+.hover-card:hover .product-image {
+  background-size: 110%;
+}
+
+.hover-card:hover .product-title {
+  font-weight: bold;
+}
+
+.feature-product-row.alt .content-left {
+  display: flex;
+  align-items: center;
+}
+
+.feature-product-row.alt .inner {
+  padding: 20px;
+}
+
+.gift-image {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.gift .gift-image {
+  display: flex;
+  align-items: center;
+  flex: 2;
+}
+
+.gift .gift-image img {
+  width: 120%;
+  max-width: 984px;
+  z-index: 2;
+}
+
+.gift-image img {
+  width: 120%;
+  max-width: 684px;
+  z-index: 2;
+}
+
+.product-category:hover {
+  font-weight: bold;
+}
+
+.border-t {
+  border-top: 1px solid #212121;
+}
+
+.border-b {
+  border-bottom: 1px solid #212121;
+}
+
+.border-tb {
+  border-top: 1px solid #212121;
+  border-bottom: 1px solid #212121;
+}
+
+.border-l {
+  border-left: 1px solid #212121;
+}
+
+.border-r {
+  border-right: 1px solid #212121;
+}
+
+.border-lr {
+  border-left: 1px solid #212121;
+  border-right: 1px solid #212121;
+}
+
+.border-all {
+  border: 1px solid #212121;
+}
+
+.recipes-left img {
+  margin-bottom: 25px;
+}
+
+.recipes-left {
+  padding: 120px 40px 40px;
+}
+
+.recipes-left .section-title {
+  font-weight: 300;
+}
+
+.featured-recipes {
+  height: 750px;
+}
+
+.recipes-right {
+  overflow: hidden;
+  max-height: 750px;
+}
+
+.recipes-col .inner {
+  padding: 20px;
+  border-right: 1px solid;
+}
+
+.recipes-col .inner .recipe-image {
+  width: 100%;
+  height: auto;
+}
+
+.recipes-col {
+  overflow-y: scroll;
+}
+
+.recipe-title {
+  font-family: Yrsa;
+  font-size: 32px;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 30px;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.text-link.light img {
+  height: 10px;
+}
+
+.text-link.light {
+  color: #FFF;
+}
+
+footer {
+  margin: 0;
+  padding: 200px 20px 20px;
+  background-position: bottom;
+}
+
+.footer-title {
+  color: #FFF;
+  font-family: Yrsa;
+  font-size: 22px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 23px;
+}
+
+.footer-col {
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px;
+}
+
+.footer-col a {
+  color: #FFF;
+  font-family: "Work Sans";
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 22px;
+}
+
+.did-you-know {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.did-you-know .footer-title {
+  color: #FFF;
+  font-family: Yrsa;
+  font-size: 46px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 49px;
+  text-align: right;
+  margin: 0 0 30px;
+}
+
+.footer-inform {
+  color: #FFF;
+  font-family: "Work Sans";
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 22px;
+  text-align: right;
+  max-width: 500px;
+  margin: 20px 0 20px auto;
+}
+
+.footer-desc {
+  color: #FFF;
+}
+
+.footer-columns {
+  margin-top: 220px;
+}
+
+.footer-form input.subscibe {
+  color: #FFF;
+  border-bottom: 1px solid;
+}
+
+.footer-form input.subscibe::placeholder {
+  color: #FFF;
+}
+
+.btn.btn-light {
+  border: none;
+  color: #212121;
+  background: #FFF;
+}
+
+.btn.btn-light:hover {
+  background: #212121;
+  color: #FFF;
+}
+
+.footer-form {
+  display: flex;
+}
+
+.footer-col:nth-child(1) {
+  flex: 1;
+  max-width: 400px;
+}
+
+.copyright p {
+  color: #FFF;
+  font-family: "Work Sans";
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 16px;
+}
+
+.copyright {
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .hero-card {
+    max-width: 760px;
+    padding-top: 150px;
+    position: relative;
+    display: block;
+    width: 100%;
+    margin: 0 0 0 auto;
+    padding-bottom: 0px;
+  }
+
+  .hero-card-inner {
+    border: 0;
+    padding: 0;
+    color: #FFFFFF;
+    font-family: Yrsa;
+    font-size: 36.29px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 35.64px;
+  }
+
+  .hero-card-wrapper {
+    background-color: rgba(255, 255, 255, 0);
+    padding: 0px 0 30px;
+  }
+
+  .home-hero {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+  }
+
+  .hero-card-inner a {
+    width: calc(100% - 30px);
+  }
+
+  .container.subscribe {
+    margin: 0px auto;
+    z-index: 2;
+    position: relative;
+    padding: 0;
+  }
+
+  .subscribe-row {
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px 0;
+  }
+
+  .service-section {
+    padding-top: 40px;
+    padding-bottom: 30px;
+  }
+
+  .promobar .message {
+    margin: 0 auto;
+  }
+
+  .sub-cta {
+    text-align: center;
+    border-bottom: 1px solid;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+
+  .sub-form {
+    display: flex;
+    flex: 1;
+    margin: 0 40px;
+    width: 100%;
+  }
+
+  .sub-form form {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    flex-direction: column;
+    padding: 0 20px;
+  }
+
+  .sub-form .subscibe {
+    border: 1px solid;
+    padding: 10px;
+    text-align: center;
+    width: calc(100% - 20px);
+    border-radius: 3px;
+  }
+
+  .sub-form .subscibe::placeholder {
+    font-size: 10px;
+  }
+
+  .sub-form .btn.btn-dark {
+    width: 100%;
+    max-width: 600px;
+    margin: 10px auto 20px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

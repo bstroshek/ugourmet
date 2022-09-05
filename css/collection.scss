@@ -1,0 +1,506 @@
+$yellow: #F0DB74;
+$gold: #DBB040;
+$blue: #7792AE;
+$brown: #64554D;
+$gray: #F8F7F5;
+$white: #FFF;
+$black: #212121;
+$dark-blue: #132222;
+
+.collection-hero-card {
+    max-width: 760px;
+    padding-top: 300px;
+    position: relative;
+    display: block;
+    width: 100%;
+    margin: auto;
+    padding-bottom: 100px;
+    text-align: center;
+  }
+
+  .collection-hero-title {
+    font-family: 'Roboto Mono';
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 2.29px;
+  }
+
+  .collection-hero-subtitle {
+    font-family: 'Yrsa', serif;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 46px;
+    line-height: 49px;
+  }
+
+  .shop-all {
+    height: 700px;
+    background-size: cover;
+  }
+
+  .shop-menu {
+    // max-width: $sitewidth;
+  }
+
+  .shop-menu .links {
+    font-family: 'Work Sans';
+    font-size: 16px;
+    line-height: 29px;
+    text-align: center;
+    margin: 75px 50px 50px;
+  }
+
+  .shop-menu .links a {
+    padding: 0 25px;
+    color: #000000;
+  }
+
+  .shop-divider {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+
+  .shop-divider img {
+    display: block;
+    margin: auto;
+    width: 80%;
+  }
+
+  .shop-all-container {
+    width: 80%;
+    margin: auto;
+  }
+
+  .breadcrumb-links {
+    font-family: 'Roboto Mono';
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    line-height: 19px;
+  }
+  .breadcrumb-links a {
+    color: black;
+  }
+
+  .best-sellers {
+    width: 100%;
+    position: relative;
+  }
+
+  .best-sellers-hr {
+    width: 500px;
+    position: absolute;
+    top: 142px;
+    left: 290px;
+  }
+
+  .best-sellers-container {
+    width: 100%;
+  }
+
+  .best-sellers-left {
+    position: relative;
+    width: 60%;
+  }
+
+  .best-sellers-right {
+    position: relative;
+    width: 40%;
+  }
+
+  .best-sellers-img {
+    margin-top: 15px;
+  }
+
+  .best-sellers-img img {
+    width: 685px;
+  }
+
+  .best-sellers-text {
+    margin-top: 100px;
+  }
+
+  .best-sellers-text .title {
+    font-family: 'Roboto Mono';
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1.71px;
+    line-height: 16px;
+    margin-bottom: 20px;
+  }
+
+  .best-sellers-text .subtitle {
+    font-family: 'Yrsa', serif;
+    font-size: 32px;
+    font-weight: 100;
+    letter-spacing: 0;
+    line-height: 30px;
+    margin-bottom: 20px;
+  }
+
+  .best-sellers-text .description {
+    font-family: "Work Sans";
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 29px;
+    margin-bottom: 20px;
+  }
+
+  .best-sellers-text .link {
+    font-family: 'Roboto Mono';
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    line-height: 19px;
+    color: black;
+  }
+
+  .section-container {
+      margin: 75px;
+      width: 100%;
+  }
+
+  .title-section-left {
+      color: black;
+      width: 35%;
+      font-size: 46px;
+      font-family: 'Yrsa';
+      line-height: 49px;
+  }
+
+  .title-bold {
+      font-weight: bold;
+  }
+
+  .title-section-right {
+      width: 65%;
+  }
+
+  .title-section-right hr {
+    float: left;
+    width: 90%;
+    margin-top: 22px;
+  }
+
+  .row {
+    margin: 80px;
+  }
+
+  .container-25 {
+      width: 25%;
+  }
+
+  .container-75 {
+      width: 75%;
+  }
+
+  .container-60 {
+    width: 60%;
+  }
+
+  .container-50 {
+      width: 50%;
+  }
+
+  .product-category {
+      font-family: 'Roboto Mono';
+      font-size: 12px;
+      font-weight: bold;
+      letter-spacing: 1.71px;
+      line-height: 16px;
+  }
+
+  .image-left {
+    height: 550px;
+    background-image: url('../images/bruschetta.jpg');
+    background-size: cover;
+    position: relative;
+    margin: 15px 0;
+  }
+
+  .image-right {
+      background-image: url('../images/hands-closeup-oliveoil.jpg');
+      background-size: contain;
+      background-repeat: no-repeat;
+      height: 600px;
+      position: relative;
+      max-width: 800px;
+      margin: auto;
+  }
+
+  .image-right-text {
+      position: absolute;
+      top: 50px;
+      left: 50px;
+      text-align: center;
+      width: 275px;
+  }
+
+  .image-right-title {
+    font-family: 'Yrsa', serif;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 30px;
+  }
+
+  .image-right-description {
+    font-family: 'Work Sans';
+    font-size: 16px;
+    line-height: 24px;
+}
+
+  .cart-btn {
+    position: absolute;
+    bottom: 25px;
+    right: 32%;
+    margin: auto;
+    border-radius: 2px;
+    font-family: "Roboto Mono";
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    line-height: 19px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 12px 20px;
+    text-decoration: none;
+    color: $black;
+    background: $yellow;
+    border: none;
+    cursor: pointer;
+    letter-spacing: 1.5px;
+    font-weight: 200;
+  }
+
+  .product-price {
+      font-family: 'Work Sans';
+      font-size: 16px;
+      font-weight: 300;
+      line-height: 23px;
+      text-align: center;
+      margin: 5px;
+      cursor: pointer;
+  }
+
+  .product-title {
+    font-family: 'Work Sans';
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 23px;
+    text-align: center;
+    margin: 5px;
+    cursor: pointer;
+}
+
+  .line-50 {
+      width: 50px;
+      height: 0;
+      margin: 10px;
+  }
+
+  .products {
+      width: 90%;
+      border-top: 1px solid black;
+      border-bottom: 1px solid black;
+      height: 500px;
+  }
+
+  .product-container-25 {
+      width: 23%;
+      border-left: 1px solid black;
+      border-right: 1px solid black;
+      height: 102%;
+      margin: 0 1%;
+  }
+
+  .product-container {
+      margin: 0 100px;
+  }
+
+  .inner-container {
+      margin: 15px;
+  }
+
+  .product-image img {
+      width: 275px;
+      display: block;
+      margin: 10px auto;
+      cursor: pointer;
+  }
+
+  .end {
+      float: right;
+      margin: 25px 200px 0 0;
+  }
+
+  .section {
+      width: 100%;
+      margin-top: 125px;
+      height: 1400px;
+  }
+
+  .vinegar-image-right {
+    height: 550px;
+    background-image: url('../images/vinegar-on-table.jpg');
+    background-size: cover;
+    position: relative;
+    margin: auto;
+  }
+
+  .vinegar-image-left {
+      background-image: url('../images/vinegar-with-bread.jpg');
+      background-size: contain;
+      background-repeat: no-repeat;
+      height: 600px;
+      position: relative;
+      max-width: 800px;
+      margin: 15px 0;
+  }
+
+  .image-left-text {
+    position: absolute;
+    top: 150px;
+    left: 250px;
+    text-align: center;
+    width: 275px;
+}
+
+.image-left-title {
+  font-family: 'Yrsa', serif;
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 30px;
+}
+
+.image-left-description {
+  font-family: 'Work Sans';
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.infused-oils {
+    width: 100%;
+    position: relative;
+    margin: 100px;
+  }
+
+  .infused-oils-hr {
+    width: 500px;
+    position: absolute;
+    top: 105px;
+    left: 500px;
+  }
+
+  .infused-oils-container {
+    width: 100%;
+  }
+
+  .infused-oils-left {
+    position: relative;
+    width: 40%;
+  }
+
+  .infused-oils-right {
+    position: relative;
+    width: 60%;
+  }
+
+  .infused-oils-img {
+    margin-top: 15px;
+  }
+
+  .infused-oils-img img {
+    width: 685px;
+  }
+
+  .infused-oils-text {
+    margin: 100px 0 0 100px;
+    width: 500px;
+  }
+
+  .infused-oils-text .title {
+    font-family: 'Roboto Mono';
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1.71px;
+    line-height: 16px;
+    margin-bottom: 20px;
+  }
+
+  .infused-oils-text .subtitle {
+    font-family: 'Yrsa', serif;
+    font-size: 32px;
+    font-weight: 100;
+    letter-spacing: 0;
+    line-height: 30px;
+    margin-bottom: 20px;
+  }
+
+  .infused-oils-text .description {
+    font-family: "Work Sans";
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 29px;
+    margin-bottom: 20px;
+  }
+
+  .infused-oils-text .link {
+    font-family: 'Roboto Mono';
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    line-height: 19px;
+    color: black;
+  }
+
+  .divider {
+    display: block;
+    margin: 0 100px;
+    width: 80%;
+    padding: 50px 0;
+  }
+
+  .action-text {
+      font-family: 'Roboto Mono';
+      font-size: 16px;
+      font-weight: 500;
+      letter-spacing: 2.29px;
+      line-height: 21px;
+  }
+
+  .category-text-large {
+      font-family: 'Yrsa';
+      font-weight: bold;
+      font-size: 46px;
+      line-height: 49px;
+  }
+
+  .balsamic-glaze-image-right {
+    height: 550px;
+    background-image: url('../images/balsamic-pearls.jpg');
+    background-size: cover;
+    position: relative;
+    margin: 15px 0;
+  }
+
+  .shop-all-button {
+      float: right;
+      margin-top: 20px;
+      margin-right: 225px;
+  }
+
+  .img-small img {
+      width: 350px;
+  }
+
+  .img-large img {
+      width: 800px;
+  }
+
+
+
+
+
+

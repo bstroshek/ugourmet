@@ -1,0 +1,136 @@
+/*
+* Health Benefits Start
+*/
+
+
+
+.health-hero {
+    margin-bottom: 0;
+}
+
+.health-content {
+    padding: 47px 0;
+    background: center/cover no-repeat;
+}
+
+.health-content .box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.health-content .box__text {
+    width: 48%;
+    text-align: left;
+}
+
+.health-content .box__text p a {
+    text-decoration: underline;
+}
+
+.health-content .box__text .box-title {
+    color: #000000;
+    font-family: "Yrsa", serif;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 46px;
+    margin: 0;
+}
+
+.health-content .box__text .box-title ~ p {
+    margin-top: 0;
+}
+
+.health-content .box__text .past-title {
+    color: #000000;
+    font-family: "Work Sans", serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    margin: 0;
+}
+
+.health-content .box__image {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 40%;
+    padding: 16px 20px;
+    background-color: #ffffff;
+}
+
+.health-content .box__image img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.health-content .box .btn {
+    margin: 10px 0;
+    display: inline-block;
+}
+
+.health-content .box .text-small {
+    width: 35%;
+}
+
+.health-left .box__image {
+    width: 45%;
+}
+
+.health-left .box__text {
+    width: 38%;
+}
+
+@media (max-width: 992px) {
+    .health-content .box {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    
+    .health-content .box__image {
+        -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+        order: 1;
+        width: 100%;
+        margin-bottom: 40px;
+        height: 400px;
+    }
+    
+    .health-content .box__text {
+        -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+        order: 2;
+        width: 100%;
+    }
+    
+    .health-content .box .text-small {
+        width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    .health-content .box {
+        width: 100%;
+    }
+    
+    .health-content .box__text {
+        text-align: center;
+    }
+}
+
+
+/*
+* Health Benefits End
+*/

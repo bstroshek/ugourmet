@@ -1,0 +1,128 @@
+.connect-blk {
+  display: flex;
+  align-items: center;
+  margin-top: 30px; }
+  .connect-blk .footer-title {
+    margin: 0 15px 0 0; }
+  .connect-blk .socials a {
+    color: #ffffff;
+    font-size: 1.2em;
+    margin: 0 5px; }
+
+@media (max-width: 767.98px) {
+  footer {
+    box-shadow: inset 0 0 0 2000px rgba(1, 1, 2, 0.42); }
+
+  footer.cover {
+    background-size: 282%; }
+
+  footer * {
+    box-sizing: border-box; }
+
+  .did-you-know {
+    display: none; }
+
+  .footer-columns {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 320px;
+    margin: 10px auto; }
+    .footer-columns .footer-col {
+      width: 100%;
+      max-width: 100%;
+      border-bottom: 1px solid #ffffff;
+      padding: 10px 0; }
+      .footer-columns .footer-col a {
+        line-height: 32px; }
+      .footer-columns .footer-col .footer-title {
+        margin-bottom: 10px; }
+
+  .footer-form {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; }
+    .footer-form input.subscibe {
+      width: 100%;
+      margin-bottom: 10px;
+      text-align: center;
+      border: 1px solid #ffffff;
+      border-radius: 2px; }
+
+  .btn {
+    width: 100%; }
+
+  .text-link.light {
+    color: #ffffff;
+    font-family: "Roboto Mono";
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase; }
+
+  .connect-blk {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    bottom: 72px;
+    left: 0;
+    right: 0; }
+    .connect-blk .footer-title {
+      margin: 0 0 20px 0; }
+      .connect-blk .footer-title:after {
+        display: none; }
+    .connect-blk .socials a {
+      font-size: 1.8em;
+      margin: 0 10px; }
+
+  .f-questions {
+    order: 4;
+    padding-top: 0; }
+    .f-questions .footer-title:after {
+      display: none; }
+
+  .f-newsletter {
+    order: 3;
+    border-bottom: none !important; }
+    .f-newsletter .footer-title:after {
+      display: none; }
+
+  .f-community {
+    order: 2; }
+
+  .f-service {
+    order: 1; }
+
+  .copyright {
+    margin-top: 90px; }
+    .copyright p {
+      text-align: center;
+      width: 100%; }
+      .copyright p:last-child {
+        display: none; }
+
+  .footer-title {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .footer-title:after {
+      content: "+";
+      display: block;
+      margin-left: 10px; } }
+@media (max-width: 580px) {
+  footer.cover {
+    background-size: 362%; } }
+@media (max-width: 380px) {
+  .footer-columns {
+    width: 100%; }
+
+  footer {
+    padding-bottom: 10px; }
+
+  footer.cover {
+    background-size: 600%; } }
+
+/*# sourceMappingURL=mob-footer.css.map */
