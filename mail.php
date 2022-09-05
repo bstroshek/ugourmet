@@ -16,7 +16,7 @@ $mail->isSMTP();                                // Настраиваем поч
 $mail->Host = 'smtp.ukr.net';  															// Основкой SMTP сервер
 $mail->SMTPAuth = true;                         // Включить аутентификацию SMTP
 $mail->Username = 'irsen_sneg@ukr.net';    // логин от почты с которой будут отправляться письма
-$mail->Password = '8ksQ9Qx2czhrHMkP';            // пароль от почты с которой будут отправляться письма
+$mail->Password = 'inDpzMj8mkfnzsr&';            // пароль от почты с которой будут отправляться письма
 $mail->SMTPSecure = 'ssl';                      // Включить шифрование ssl
 $mail->Port = 587;                                 // TCP порт для подключения / этот порт может отличаться у других провайдеров
 
